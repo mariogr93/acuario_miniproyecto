@@ -4,11 +4,6 @@ from Shark import Shark
 from Turtle import Turtle
 
 
-import Fish
-import Shark
-import Turtle
-
-
 #Nombre: Aquarium(Tipo:Class)
 #Objetivo: crea objetos tipo Aquarium el cual almacena, modifica y muestra informacion de una tabla hash propia de la clase
 class Aquarium():
@@ -49,11 +44,11 @@ class Aquarium():
             print 'Formato de Informacion Incorrecto, intente nuevamente'
             return self.create()
         if opciones == 'A':
-            animal = Fish.Fish(name, water, size, temperature, country, amount)
+            animal = Fish(name, water, size, temperature, country, amount)
         if opciones == 'B':
-            animal = Shark.Shark(name, water, size, temperature, country, amount)
+            animal = Shark(name, water, size, temperature, country, amount)
         if opciones == 'C':
-            animal = Turtle.Turtle(name, water, size, temperature, country, amount)
+            animal = Turtle(name, water, size, temperature, country, amount)
 
         return self.register(animal), self.start()
 
