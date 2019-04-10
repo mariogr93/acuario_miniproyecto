@@ -17,4 +17,12 @@ Si se desea modificar cualquier informacion de un objeto, se utiliza la Opcion "
 la informacion registrada del objeto incluyendo su nombre.
 
 La Opcion "Eliminar" funciona utilizando el nombre del objeto que se desea eliminar para buscarlo y borrarlo 
-totalmente de la base de datos (tabla Hash). -->
+totalmente de la base de datos (tabla Hash). 
+
+PARA USAR EL PROGRAMA:
+
+1. Click en Ejecutar en terminal/consola.
+2. Enseguida resivira una serie de opciones donde se le permitira "Crear y tanto Buscar, Modificar como eliminar
+un objeto ya existente.
+
+-->
