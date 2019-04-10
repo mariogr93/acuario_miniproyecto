@@ -1,4 +1,9 @@
 
+from Fish import Fish
+from Shark import Shark
+from Turtle import Turtle
+
+
 import Fish
 import Shark
 import Turtle
@@ -21,7 +26,7 @@ class Aquarium():
             result =  self.show()
         if opciones == 'C':
             result = self.modifyName()
-            
+
         if opciones == 'D':
             result = self.delete()
         else:
@@ -44,11 +49,11 @@ class Aquarium():
             print 'Formato de Informacion Incorrecto, intente nuevamente'
             return self.create()
         if opciones == 'A':
-            animal = Fish(name, water, size, temperature, country, amount)
+            animal = Fish.Fish(name, water, size, temperature, country, amount)
         if opciones == 'B':
-            animal = Shark(name, water, size, temperature, country, amount)
+            animal = Shark.Shark(name, water, size, temperature, country, amount)
         if opciones == 'C':
-            animal = Turtle(name, water, size, temperature, country, amount)
+            animal = Turtle.Turtle(name, water, size, temperature, country, amount)
 
         return self.register(animal), self.start()
 

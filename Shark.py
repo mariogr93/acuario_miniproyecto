@@ -1,4 +1,4 @@
-import Fish
+from Fish import Fish
 
 #Nombre: Shark(Tipo:Class)
 #Objetivo: crea objetos tipo Tiburon con parametros que hereda de la clase Fish
